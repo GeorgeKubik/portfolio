@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+	.hamburger {
+		right: 20px;
+	}
+	.menu {
+		&__block {
+			width: 250px;
+			padding-left: 20px;
+		}
+	}
+}

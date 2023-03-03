@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+	.skills {
+		&__wrapper {
+			justify-content: space-around;
+		}
+		&__subtitle {
+			font-size: 30px;
+		}
+		&__calc {
+			grid-template-columns: 320px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.skills {
+		&__calc {
+			grid-template-columns: 290px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.skills {
+		&__calc {
+			grid-template-columns: 280px;
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.skills {
+	padding-top: 120px;
+	&__wrapper {
+		margin-top: 60px;
+		display: grid;
+		grid-template: repeat(2, minmax(270px, auto)) / repeat(auto-fit, 270px);
+		grid-auto-rows: minmax(270px, auto);
+		gap: 13px;
+		justify-content: center;
+	}
+	&__item {
+		padding: 30px 30px 25px 30px;
+		border: 1px solid #000;
+		&-head {
+			margin-top: 20px;
+		}
+		&-descr {
+			margin-top: 15px;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 18px;
+			color: #000000;
+		}
+	}
+	&__calc {
+		margin-top: 128px;
+		display: grid;
+		grid-template: repeat(2, minmax(70px, auto)) / repeat(auto-fit, 350px);
+		grid-auto-rows: minmax(70px, auto);
+		justify-content: center;
+		gap: 30px 45px;
+	}
+	&__block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		&-head {
+			padding-top: 7px;
+			display: flex;
+			justify-content: space-between;
+			.title {
+				padding-left: 12px;
+				position: relative;
+				content: '';
+				@include before_circle;
+				&:before {
+					top: -8px;
+				}
+			}
+		}
+		&-scale {
+			width: 100%;
+			height: 14px;
+			border-radius: 4px;
+			background-color: #E8E4DE;
+			span {
+				max-width: 350px;
+				display: block;
+				height: 14px;
+				border-radius: 4px;
+				background-color: $main-color;
+			}
+		}
+	}
+}

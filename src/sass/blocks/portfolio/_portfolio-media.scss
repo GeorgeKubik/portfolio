@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+	.portfolio {
+		padding-top: 60px;
+		&__wrapper {
+			grid-template: repeat(2,260px) / repeat(auto-fit, 260px);
+			grid-auto-rows: 260px;
+			row-gap: 35px;
+			justify-content: space-around;
+		}
+		&__item:nth-child(4) {
+			grid-column: unset;
+    		grid-row: unset;
+		}
+		&__item:nth-child(6) {
+			grid-column: unset;
+    		grid-row: unset;
+		}
+	}
+}

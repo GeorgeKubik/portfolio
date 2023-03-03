@@ -1,0 +1,33 @@
+.promo {
+	min-height: 100vh;
+	position: relative;
+	background: url('../img/bg_1.jpg') center (center/cover) no-repeat;
+	/* background: url('../img/lamp.jpg') center (center/cover) no-repeat; */
+	&__wrapper {
+		padding-top: 200px;
+	}
+	&__title {
+		margin-top: 10px;
+		color: #fff;
+	}
+	&__btns {
+		width: 320px;
+		margin-top: 25px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__circle {
+		position: relative;
+		padding-left: 10px;
+		z-index: 2;
+		@include before_circle;
+		color: #fff;
+		&:before {
+			top: -6px;
+		}
+		span {
+			color: #000;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+
+@media (max-width: 768px) {
+	.title {
+		&-fz48 {
+			font-size: 28px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.title {
+		&-fz48 {
+			font-size: 26px;
+		}
+	}
+}

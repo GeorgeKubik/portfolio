@@ -1,0 +1,54 @@
+@import 'libs/normalize';
+@import 'libs/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+.divider {
+	width: 60px;
+	height: 3px;
+	background: $main-color;
+	margin: 25px auto 0 auto;
+}
+
+@import 'blocks/title/title';
+@import 'blocks/button';
+@import 'blocks/promo/promo';
+@import 'blocks/sidepenal/sidepenal';
+@import 'blocks/menu/menu';
+@import 'blocks/about/about';
+@import 'blocks/resume/resume';
+@import 'blocks/skills/skills';
+@import 'blocks/portfolio/portfolio';
+@import 'blocks/price/price';
+@import 'blocks/contacts/contacts';
+@import 'blocks/page-Up';
+
+// policy
+@import 'policy/policy';
+
+// media
+@import 'blocks/sidepenal/sidepenal-media';
+@import 'blocks/promo/promo-media';
+@import 'blocks/title/title-media';
+@import 'blocks/menu/menu-media';
+@import 'blocks/about/about-media';
+@import 'blocks/resume/resume-media';
+@import 'blocks/skills/skills-media';
+@import 'blocks/portfolio/portfolio-media';
+@import 'blocks/price/price-media';
+@import 'blocks/contacts/contacts-media';
+@import 'blocks/media';

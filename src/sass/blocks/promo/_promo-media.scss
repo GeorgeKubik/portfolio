@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+	.promo {
+		&__title {
+			line-height: 39px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.promo {
+		&__btns {
+			width: 280px;
+			margin-top: 30px;
+		}
+		&__link {
+			padding: 0.8em 1.6em;
+		}
+	}
+}
